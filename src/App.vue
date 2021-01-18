@@ -6,7 +6,6 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
 import PhoneBookNav from "./components/NavBar.vue";
 import PhoneBookTable from "./components/PhoneBookTable.vue";
 
@@ -15,10 +14,7 @@ export default {
   components: {
     PhoneBookNav,
     PhoneBookTable,
-    PhoneBookTable,
-  },
-  created() {
-  },
+  }
 };
 </script>
 
